@@ -1,0 +1,532 @@
+<html lang="ja" class="tablet"><!--<![endif]--><head>
+<meta charset="Shift_JIS">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+
+<link rel="apple-touch-icon-precomposed" href="https://www.tohotheater.jp/responsive/images/icon/TClogo_main.png" class="changeImgDomain">
+<link rel="stylesheet" href="/responsive/css/style.css?20210324">
+<link rel="stylesheet" href="/responsive/css/icons.css?20210129">
+<!--[if lte IE 10]><link rel="stylesheet" href="/responsive/css/ie_compat.css"><![endif]-->
+<script src="https://www.googletagservices.com/activeview/js/current/osd.js"></script><script type="text/javascript" async="" src="//sync.im-apps.net/imid/segment?token=SslLGIlz1vUxiIkb8Mzm7Q&amp;callback=TDWrapper60.tdw_docri6.dmpCb.list.im.onReceive"></script><script type="text/javascript" async="" src="https://cdn.treasuredata.com/sdk/2.1/td.min.js"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://static.ads-twitter.com/uwt.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-NWDYEGZP6P&amp;l=dataLayer&amp;cx=c"></script><script src="https://securepubads.g.doubleclick.net/pagead/js/rum.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-K35TJR"></script><script src="https://connect.facebook.net/signals/config/362030357747701?v=2.9.40&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/config/739386006168943?v=2.9.40&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="/responsive/js/jquery.min.js"></script>
+<script src="/responsive/js/utils/cookieManager.js?20200727"></script>
+
+<script>
+$(function(){
+    if (typeof CookieManager.isConnectedAppl != "function") {
+        $.ajax({
+            method: 'GET',
+            url: '/responsive/js/utils/cookieManager.js?seq=20161019',
+            dataType: 'script',
+            contentType: 'application/x-www-form-urlencoded; charset=utf-8'
+        })
+        .then(function(){
+        });
+    }
+
+    // applアクセス判定
+    if (typeof CookieManager.isConnectedAppl == "function" && CookieManager.isConnectedAppl() == "true") {
+        $(".header").remove();
+        $(".grid-menu").remove();
+        $(".footer-link").remove();
+        $(".auto-login").remove();
+    }
+});
+</script>
+
+<script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+window.googletag = window.googletag || {cmd: []};
+googletag.cmd.push(function() {
+  
+  /* init dfp inventories */
+  var adlist;
+  var _UA = navigator.userAgent;
+  var _asAndroid  = (_UA.indexOf('Android') > -1)? true:false;
+  var _asiPhone   = (_UA.indexOf('iPhone') > -1)? true:false;
+
+  if( (_asAndroid || _asiPhone) && window.innerWidth < 768 ) {
+    //SP
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_sp_atf_320x180', ['fluid', [320, 180]], 'div-gpt-ad-1567419513519-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_sp_btf_336x280', ['fluid', [336, 280]], 'div-gpt-ad-1567416048156-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_sp_btf_320x50_1', ['fluid', [320, 50]], 'div-gpt-ad-1568185802108-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_sp_btf_320x50_2', ['fluid', [320, 50]], 'div-gpt-ad-1568185749468-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_sp_btf_320x50_3', ['fluid', [320, 50]], 'div-gpt-ad-1568185694743-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_sp_btf_320x50_4', ['fluid', [320, 50]], 'div-gpt-ad-1568185587926-0').addService(googletag.pubads());
+
+    adlist = [
+      'div-gpt-ad-1567415748775-0',
+      'div-gpt-ad-1567415774805-0',
+      'div-gpt-ad-1567415803862-0',
+      'div-gpt-ad-1567415853085-0',
+      'div-gpt-ad-1567415878724-0',
+      'div-gpt-ad-1567415917375-0',
+      'div-gpt-ad-1567415976546-0'
+      ];
+
+  } else {
+    //PC
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_pc_atf_728x90', ['fluid', [728, 90]], 'div-gpt-ad-1567415748775-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_pc_atf_970x250', ['fluid', [970, 250]], 'div-gpt-ad-1567415774805-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_pc_btf_300x250_left', ['fluid', [300, 250]], 'div-gpt-ad-1567415803862-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_pc_btf_300x250_right', ['fluid', [300, 250]], 'div-gpt-ad-1567415853085-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_pc_btf_728x90_1', ['fluid', [728, 90]], 'div-gpt-ad-1567415878724-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_pc_btf_728x90_2', ['fluid', [728, 90]], 'div-gpt-ad-1567415917375-0').addService(googletag.pubads());
+    googletag.defineSlot('/21845941275/tohotheater_nowshowing_pc_btf_728x90_3', ['fluid', [728, 90]], 'div-gpt-ad-1567415976546-0').addService(googletag.pubads());
+
+    adlist = [
+		'div-gpt-ad-1567419513519-0',
+		'div-gpt-ad-1567416048156-0',
+		'div-gpt-ad-1568185802108-0',
+		'div-gpt-ad-1568185749468-0',
+		'div-gpt-ad-1568185694743-0',
+		'div-gpt-ad-1568185587926-0'
+    ];
+	}
+
+  adlist.forEach(function( val ) {
+    $('#' + val).hide();
+  });
+
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+});
+</script>
+
+<title>上映中作品 || TOHOシネマズ</title>
+<meta name="description" content="TOHOシネマズで上映中の作品情報はこちらから。">
+<meta name="keywords" content="TOHOシネマズ,東宝,トーホー,作品,映画,上映,公開">
+<link rel="stylesheet" href="/responsive/js/slider/sliderpro/css/slider-pro.min.css">
+<meta http-equiv="origin-trial" content="A+b/H0b8RPXNaJgaNFpO0YOFuGK6myDQXlwnJB3SwzvNMfcndat4DZYMrP4ClJIzYWo3/yP2S+8FTZ/lpqbPAAEAAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxL6oBxcpn5rQDPKSAs+d0oxNyJYq2/4esBUh3Yx5z8QfcLu+AU8iFCXYRcr/CEEfDnkxxLTsvXPJFQBxHfvkgMAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9KPtG5kl3oLTk21xqynDPGQ5t18bSOpwt0w6kGa6dEWbuwjpffmdUpR3W+faZDubGT+KIk2do0BX2ca16x8qAcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A0OysezhLoCRYomumeYlubLurZTCmsjTb087OvtCy95jNM65cfEsbajrJnhaGwiTxhz38ZZbm+UhUwQuXfVPTg0AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxoOxdZQmIoA1WeAPDixRAeWDdgs7ZtVFfH2y19ziTgD1iaHE5ZGz2UdSjubkWvob9C5PrjUfkWi4ZSLgWk3Xg8AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7+rMYR5onPnACrz+niKSeFdH3xw1IyHo2AZSHmxrofRk9w4HcQPMYcpBUKu6OQ6zsdxf4m/vqa6tG6Na4OLpAQAAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwfG8hAcHnPa/kJ1Co0EvG/K0F9l1s2JZGiDLt2mhC3QI5Fh4qmsmSwrWObZFbRC9ieDaSLU6lHRxhGUF/i9sgoAAACBeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwQ7dCmHkvR6FuOFxAuNnktYSQrGbL4dF+eBkrwNLALc69Wr//PnO1yzns3pjUoCaYbKHtVcnng2hU+8OUm0PAYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AysVDPGQTLD/Scn78x4mLwB1tMfje5jwUpAAzGRpWsr1NzoN7MTFhT3ClmImi2svDZA7V6nWGIV8YTPsSRTe0wYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021052601.js" async=""></script><link rel="preload" href="https://adservice.google.co.jp/adsid/integrator.js?domain=hlo.tohotheater.jp" as="script"><script type="text/javascript" src="https://adservice.google.co.jp/adsid/integrator.js?domain=hlo.tohotheater.jp"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=hlo.tohotheater.jp" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=hlo.tohotheater.jp"></script><link rel="prefetch" href="https://ef095a9828695c432e05b022c2d6612f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-38/html/container.html"><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/782924555/?random=1622626657026&amp;cv=9&amp;fst=1622626657026&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=2505059650&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=540&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg5q1&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fhlo.tohotheater.jp%2Fnet%2Fmovie%2FTNPI3090J01.do&amp;tiba=%E4%B8%8A%E6%98%A0%E4%B8%AD%E4%BD%9C%E5%93%81%20%7C%7C%20TOHO%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%BA&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/776811453/?random=1622626657031&amp;cv=9&amp;fst=1622626657031&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=2505059650&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=540&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg5q1&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fhlo.tohotheater.jp%2Fnet%2Fmovie%2FTNPI3090J01.do&amp;tiba=%E4%B8%8A%E6%98%A0%E4%B8%AD%E4%BD%9C%E5%93%81%20%7C%7C%20TOHO%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%BA&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></head>
+<body class="page-normal is-has-menu" id="top">
+<header class="header is-normal" role="banner">
+    <div class="header-ci"><a href="https://www.tohotheater.jp/" class="changeImgDomain"><img src="https://www.tohotheater.jp/responsive/images/module/logo-tohocinemas-01.png" width="116" alt="TOHO CINEMAS" class="changeImgDomain"></a></div>
+    <p class="header-button"><a href="#" class="js-menu-open"><i class="line"></i><i class="line"></i><i class="line"></i><span class="text"><span class="open">閉じる</span><span class="close">メニュー</span></span></a></p>
+</header>
+
+<div class="grid">
+    <div class="grid-menu" id="js-menu">
+<script src="/responsive/js/menuLogin.js"></script>
+<script>
+if(localStorage.getItem('menu') == 'close') {
+    var body = document.getElementById('top');
+    var menu = document.getElementById('js-menu');
+    var menuButtons = document.getElementsByClassName('js-menu-open');
+    body.className += ' is-menu-close';
+    menu.className += ' is-menu-close';
+    for(var index in menuButtons) {
+        menuButtons[index].className += ' is-close';
+    }
+}            
+
+</script>
+    <nav role="navigarion" class="global">
+        <div class="global-overlay js-menu-open"></div>
+        <div class="global-pseudo-overlay js-menu-open"></div>
+        <div class="global-pseudo-main" style="height: 0px;"></div>
+        <div class="global-main">
+            <div class="global-home">
+                <ul>
+                    <li><a href="https://www.tohotheater.jp/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_home" aria-hidden="true"></i>トップページ</a></li>
+                </ul>
+            </div>
+            <div class="global-home">
+                <ul>
+                    <li><a href="javascript:LoginAuth.login();" id="js-menu-login-link"><i class="glyphicon glyphicon-icon_login" aria-hidden="true"></i><span id="js-menu-login-itemName">ログイン</span></a></li>
+                </ul>
+            </div>
+            <div class="global-tab js-simple-tab">
+                <div class="global-tab-nav">
+                    <ul class="js-simple-tab-nav">
+                        <li class=""><a href="#simple-tab-01"><i class="glyphicon glyphicon-icon_theater" aria-hidden="true"></i><span class="text">劇場を探す</span></a></li>
+                        <li class="is-current"><a href="#simple-tab-02"><i class="glyphicon glyphicon-icon_movie" aria-hidden="true"></i><span class="text">作品を探す</span></a></li>
+                    </ul>
+                </div>
+                <div class="global-tab-panel js-simple-tab-panel is-current" id="simple-tab-01" style="display: none;">
+                    <ul>
+                        <li class="search-theater-all"><a href="https://www.tohotheater.jp/theater/find.html" class="changeImgDomain"><i class="glyphicon glyphicon-icon_theater-all" aria-hidden="true"></i>すべての劇場</a></li>
+                        <li class="search-theater-imax"><a href="https://www.tohotheater.jp/service/imax/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_imax" aria-hidden="true"></i>IMAX 劇場一覧</a></li>
+                        <li class="search-theater-mx4d"><a href="https://www.tohotheater.jp/service/mx4d/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_mx4d" aria-hidden="true"></i>MX4D 劇場一覧</a></li>
+                        <li class="search-theater-tcx"><a href="https://www.tohotheater.jp/service/tcx_dolbyatmos/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_tcx" aria-hidden="true"></i>TCX 劇場一覧</a></li>
+                        <li class="search-theater-atmos"><a href="https://www.tohotheater.jp/service/tcx_dolbyatmos/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_atmos" aria-hidden="true"></i>ATMOS 劇場一覧</a></li>
+                        <li class="search-theater-screen"><a href="https://www.tohotheater.jp/service/screen_x/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_screenx" aria-hidden="true"></i>SCREEN X 劇場一覧</a></li>
+                    </ul>
+                </div>
+                <div class="global-tab-panel js-simple-tab-panel" id="simple-tab-02" style="display: block;">
+                    <ul>
+                        <li class="search-movie-screening"><a href="/net/movie/TNPI3090J01.do" class="is-current"><i class="glyphicon glyphicon-icon_screening" aria-hidden="true"></i>上映中作品情報</a></li>
+                        <li class="search-movie-atmos"><a href="/net/movie/TNPI3080J01.do"><i class="glyphicon glyphicon-icon_release" aria-hidden="true"></i>公開予定作品情報</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="global-primary">
+                <ul class="group">
+                    <li class="global-event"><a href="https://www.tohotheater.jp/event/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_event" aria-hidden="true"></i><span class="text">舞台挨拶・<br>イベント</span></a></li>
+                    <li class="global-campaign"><a href="https://www.tohotheater.jp/campaign/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_privilege-01" aria-hidden="true"></i><span class="text">プレゼント・<br>キャンペーン</span></a></li>
+                    <li class="global-news"><a href="https://www.tohotheater.jp/news/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_news" aria-hidden="true"></i><span class="text">お知らせ</span></a></li>
+                    <li class="global-confirm"><a href="https://hlo.tohotheater.jp/net/ticket/TNPI2150J01.do" class="changeDomain"><i class="glyphicon glyphicon-icon_confirm" aria-hidden="true"></i><span class="text">購入情報の<br>確認</span></a></li>
+                </ul>
+            </div>
+            <div class="global-secondary">
+                <ul>
+                    <li class="global-service"><a href="https://www.tohotheater.jp/service/index.html" class="changeImgDomain"><i class="glyphicon glyphicon-icon_service" aria-hidden="true"></i>サービス案内</a></li>
+                    <li class="global-application"><a href="https://www.tohotheater.jp/app/" class="changeImgDomain"><img src="https://www.tohotheater.jp/responsive/images/module/icon-application-01.png" width="19" alt="" class="changeImgDomain">スマートフォンアプリ</a></li>
+                    <li class="global-officialSNS"><a href="https://www.tohotheater.jp/sns/" class="changeImgDomain"><i class="glyphicon glyphicon-icon_all_sns" aria-hidden="true"></i>公式SNSアカウント</a></li>
+                    <li class="global-dreampass"><a href="https://www.tohotheater.jp/event/dreampass-service.html" class="changeImgDomain"><img src="https://www.tohotheater.jp/responsive/images/module/icon-dreampass-01.png" width="18" alt="" class="changeImgDomain">ドリパス</a></li>
+                    <li class="global-qa"><a href="http://help.tohotheater.jp/" target="_blank"><i class="glyphicon glyphicon-icon_qa" aria-hidden="true"></i>ご質問・ご意見</a></li>
+                    <li class="global-sitemap"><a href="https://www.tohotheater.jp/info/sitemap.html" class="changeImgDomain"><i class="glyphicon glyphicon-icon_sitemap" aria-hidden="true"></i>サイトマップ</a></li>
+                    <li class="global-company"><a href="http://www.tohocinemas.co.jp/" target="_blank"><i class="glyphicon glyphicon-icon_company" aria-hidden="true"></i>企業情報</a></li>
+                    <li class="global-company"><a href="https://www.tohocinemas.co.jp/recruit/entry/" target="_blank"><i class="glyphicon glyphicon-icon_recruit" aria-hidden="true"></i>採用情報</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="global-empty"></div>
+    </nav>
+<script>
+
+var Menu = {
+    MenuClass: {
+        TAB_ID_START_WITH: 'simple-tab-',
+        TAB_CLASS: 'js-simple-tab-panel'
+    },
+    hideTabs: function() {
+        $('div[id^='+this.MenuClass.TAB_ID_START_WITH+'].'+this.MenuClass.TAB_CLASS).hide();
+        $('a[href^=#'+this.MenuClass.TAB_ID_START_WITH+']').parent().removeClass('is-current');
+    },
+    showTab: function(panelId) {
+        this.hideTabs();
+        $('div[id='+panelId+'].'+this.MenuClass.TAB_CLASS).show();
+        $('a[href=#'+panelId+']').parent().addClass('is-current');
+    }
+}
+
+$(function() {
+    $('li[class^=search-] a').each(function() {
+        var href = $(this).attr('href');
+        if(location.pathname != '/' && href.match(location.pathname+'$')) {
+            $(this).addClass('is-current');
+            var panelId = $(this).closest('.js-simple-tab-panel').attr('id');
+            Menu.showTab(panelId);
+        }
+    });
+});
+</script>
+</div>
+    <div class="grid-wrapper is-col-01">
+        <div class="grid-main">
+            
+            <!-- /21845941275/tohotheater_nowshowing_pc_atf_970x250 -->
+            <div id="div-gpt-ad-1567415774805-0" data-google-query-id="CPSJ7qvT-PACFc9AwgUdhcEMZg">
+            
+            <div id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_atf_970x250_0__container__" style="border: 0pt none; display: inline-block; width: 1240px; height: 250px;"><iframe frameborder="0" src="https://ef095a9828695c432e05b022c2d6612f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_atf_970x250_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="1240" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" data-google-container-id="2" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+            
+            <nav class="nav is-home">
+                <ul>
+                    <li><a href="/net/movie/TNPI3090J01.do" class="is-current"><span>上映中<br><span class="nav-local-en">Now Playing</span></span></a></li>
+                    <li><a href="/net/movie/TNPI3080J01.do"><span>公開予定<br><span class="nav-local-en">Coming Soon</span></span></a></li>
+                    <li><a href="/theater/find.html"><span>劇場を探す<br><span class="nav-local-en">Theater List</span></span></a></li>
+                </ul>
+            </nav>
+
+			<!-- /21845941275/tohotheater_nowshowing_pc_atf_728x90 -->
+			<div id="div-gpt-ad-1567415748775-0" data-google-query-id="CPOJ7qvT-PACFc9AwgUdhcEMZg">
+			  
+			<div id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_atf_728x90_0__container__" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="https://ef095a9828695c432e05b022c2d6612f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_atf_728x90_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+
+			<!-- /21845941275/tohotheater_nowshowing_sp_atf_320x180 -->
+			<div id="div-gpt-ad-1567419513519-0" style="display: none;">
+			  <script>
+			    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567419513519-0'); });
+			  </script>
+			</div>
+
+            <section class="section is-lv-02">
+                
+                <div class="box is-banner">
+    <ul>
+        <li><a href="http://www.tohotheater.jp/campaign/au_monday/index.html"><img class="changeImgDomain" src="https://www.tohotheater.jp/responsive/images/banner/banner-home_main_01.png" width="680" alt=""></a></li>
+    </ul>
+</div>
+                
+                <h1 class="heading is-lv-02"><span class="ja">上映中作品</span><span class="en">Now Playing</span></h1>
+                <div class="movies movies-sp-separate ga_add">
+                    <div class="movies-inner group">
+                    <div class="js-scrollInTurn">
+<div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019423" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019423/SAKUHIN019423_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">アオラレ</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="017913" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/017913/SAKUHIN017913_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">名探偵コナン　緋色の弾丸</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019422" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019422/SAKUHIN019422_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">地獄の花園</h2>
+</a></div><section class="g-Adsense pcVer"><!-- /21845941275/tohotheater_nowshowing_pc_btf_728x90_1 --><div id="div-gpt-ad-1567415878724-0" data-google-query-id="CPeJ7qvT-PACFc9AwgUdhcEMZg"><div id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_728x90_1_0__container__" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="https://ef095a9828695c432e05b022c2d6612f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_728x90_1_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" data-google-container-id="5" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div></section><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="018335" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/018335/SAKUHIN018335_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">ＨＯＫＵＳＡＩ</h2>
+</a></div><section class="g-Adsense spVer"><!-- /21845941275/tohotheater_nowshowing_sp_btf_320x50_1 --><div id="div-gpt-ad-1568185802108-0"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1568185802108-0'); });</script></div></section><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="018501" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/018501/SAKUHIN018501_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">るろうに剣心　最終章　Ｔｈｅ　Ｆｉｎａｌ</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019293" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019293/SAKUHIN019293_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">いのちの停車場</h2>
+</a></div><section class="g-Adsense pcVer"><!-- /21845941275/tohotheater_nowshowing_pc_btf_728x90_2 --><div id="div-gpt-ad-1567415917375-0" data-google-query-id="CPiJ7qvT-PACFc9AwgUdhcEMZg"><div id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_728x90_2_0__container__" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="https://ef095a9828695c432e05b022c2d6612f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_728x90_2_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" data-google-container-id="6" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div></section><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="017929" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/017929/SAKUHIN017929_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">シン・エヴァンゲリオン劇場版</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019276" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019276/SAKUHIN019276_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">劇場版　Ｆａｔｅ／Ｇｒａｎｄ　Ｏｒｄｅｒ</h2>
+</a></div><section class="g-Adsense spVer"><!-- /21845941275/tohotheater_nowshowing_sp_btf_320x50_2 --><div id="div-gpt-ad-1568185749468-0"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1568185749468-0'); });</script></div></section><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="018484" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/018484/SAKUHIN018484_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">劇場版「鬼滅の刃」無限列車編</h2>
+</a></div><section class="g-Adsense pcVer"><!-- /21845941275/tohotheater_nowshowing_pc_btf_728x90_3 --><div id="div-gpt-ad-1567415976546-0" data-google-query-id="CPmJ7qvT-PACFc9AwgUdhcEMZg"><div id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_728x90_3_0__container__" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="https://ef095a9828695c432e05b022c2d6612f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_728x90_3_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" data-google-container-id="7" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div></section><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019458" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019458/SAKUHIN019458_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">ジェントルメン</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019307" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019307/SAKUHIN019307_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">映画　賭ケグルイ　絶体絶命ロシアンルーレット</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019395" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019395/SAKUHIN019395_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">女たち</h2>
+</a></div><section class="g-Adsense spVer"><!-- /21845941275/tohotheater_nowshowing_sp_btf_320x50_3 --><div id="div-gpt-ad-1568185694743-0"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1568185694743-0'); });</script></div></section><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019559" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019559/SAKUHIN019559_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">アメリカン・ユートピア</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019689" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019689/SAKUHIN019689_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">劇場完全版「熊川哲也　カルミナ・ブラーナ２０２１」</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019326" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019326/SAKUHIN019326_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">劇場版　ポリス×戦士　ラブパトリーナ！</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019528" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019528/SAKUHIN019528_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">茜色に焼かれる</h2>
+</a></div><section class="g-Adsense spVer"><!-- /21845941275/tohotheater_nowshowing_sp_btf_320x50_4 --><div id="div-gpt-ad-1568185587926-0"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1568185587926-0'); });</script></div></section><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019382" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019382/SAKUHIN019382_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">ファーザー</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019620" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019620/SAKUHIN019620_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">しあわせのマスカット</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019429" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019429/SAKUHIN019429_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">くれなずめ</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019479" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019479/SAKUHIN019479_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">未来へのかたち</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019523" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019523/SAKUHIN019523_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">プロジェクトＶ</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019534" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019534/SAKUHIN019534_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">魔進戦隊キラメイジャーＶＳリュウソウジャー</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="018914" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/018914/SAKUHIN018914_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">ＢａｎＧ　Ｄｒｅａｍ！　Ｅｐｉｓｏｄｅ　ｏｆ　Ｒｏｓｅｌｉａ</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019478" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019478/SAKUHIN019478_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">グランパ・ウォーズ　おじいちゃんと僕の宣戦布告</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019659" style="background-image: url(&quot;https://www.tohotheater.jp/responsive/images/module/no_image.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">街の上で</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019279" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019279/SAKUHIN019279_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">約束の宇宙</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019212" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019212/SAKUHIN019212_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">ザ・スイッチ</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019300" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019300/SAKUHIN019300_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">２１ブリッジ</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019118" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019118/SAKUHIN019118_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">劇場版シグナル　長期未解決事件捜査班</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019513" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019513/SAKUHIN019513_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">ＪＵＮＫ　ＨＥＡＤ</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019579" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019579/SAKUHIN019579_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">ＥＳ　Ｍｕｓｉｃ　Ｇａｒｄｅｎ－Ｄｅｌａｙ　Ｖｉｅｗｉｎｇ－</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019059" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019059/SAKUHIN019059_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">ガールズ＆パンツァー　最終章　第３話</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="019199" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/019199/SAKUHIN019199_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">映画ヒーリングっど・プリキュア</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="017925" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/017925/SAKUHIN017925_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">奥様は、取り扱い注意</h2>
+</a></div><div class="movies-item"><a href="#">
+    <div class="movies-image"><span class="movies-image-inner" id="018819" style="background-image: url(&quot;https://www.tohotheater.jp/images_net/movie/018819/SAKUHIN018819_2.jpg&quot;);"></span></div>
+    <h2 class="movies-title js-heightline-01" style="height: 38px;">ミッドナイトスワン</h2>
+</a></div></div></div>
+                </div>
+            </section>
+
+            <section class="section is-lv-02">
+                <div class="section-text-block">
+                    <p class="section-moveto"><a href="/net/movie/TNPI3080J01.do" class="button button-large button-primary button-auto">公開予定作品一覧</a></p>
+                </div>
+                <div class="section-text-block">
+                    <p class="section-moveto"><a href="/theater/find.html" class="button button-large button-primary button-auto">劇場一覧はこちら</a></p>
+                </div>
+            </section>
+			<div class="ga_banners">
+				<ul class="ga_group">
+					<li>
+						<!-- /21845941275/tohotheater_nowshowing_pc_btf_300x250_left -->
+						<div id="div-gpt-ad-1567415803862-0" data-google-query-id="CPWJ7qvT-PACFc9AwgUdhcEMZg">
+						  
+						<div id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_300x250_left_0__container__" style="border: 0pt none; display: inline-block; width: 300px; height: 250px;"><iframe frameborder="0" src="https://ef095a9828695c432e05b022c2d6612f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_300x250_left_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" data-google-container-id="3" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+						<!-- /21845941275/tohotheater_nowshowing_sp_btf_336x280 -->
+						<div id="div-gpt-ad-1567416048156-0" style="display: none;">
+						  <script>
+						    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567416048156-0'); });
+						  </script>
+						</div>
+					</li>
+					
+					<li class="sp-none">
+						<!-- /21845941275/tohotheater_nowshowing_pc_btf_300x250_right -->
+						<div id="div-gpt-ad-1567415853085-0" data-google-query-id="CPaJ7qvT-PACFc9AwgUdhcEMZg">
+						  
+						<div id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_300x250_right_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_300x250_right_0" title="3rd party ad content" name="google_ads_iframe_/21845941275/tohotheater_nowshowing_pc_btf_300x250_right_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" srcdoc="" style="border: 0px; vertical-align: bottom;" data-google-container-id="4" data-load-complete="true"></iframe></div></div>
+					</li>
+				</ul>
+			</div>
+            <div class="banner is-hd-mt">
+  <div class="banner-slider">
+    <div class="slider-pro" id="js-banner-slider-01">
+      <ul class="sp-slides">
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+        </div>
+    </div>
+</div>
+<div class="footer-copyright-movie is-simple"><p><small id="copyrights">(C)2021 SOLSTICE STUDIOS. ALL RIGHTS RESERVED./（C）2020 青山剛昌／名探偵コナン製作委員会/（C）2021 『地獄の花園』製作委員会/（C）2020 HOKUSAI MOVIE/（C）和月伸宏／集英社 （C）2020 映画「るろうに剣心　最終章 The Final/The Beginning」製作委員会/（C）2021「いのちの停車場」製作委員会/（C）カラー/(C)TYPE-MOON / FGO6 ANIME PROJECT/（C）吾峠呼世晴／集英社・アニプレックス・ufotable/（C）2020 Coach Films UK Ltd. All Rights Reserved. /（C）河本ほむら・尚村透／SQUARE ENIX　（C）2021 「映画 賭ケグルイ２」製作委員会/(C)『女たち』製作委員会/（C）2020 PM AU FILM, LLC AND RIVER ROAD ENTERTAINMENT, LLC ALL RIGHTS RESERVED/(C)ＴＯＭＹ・ＯＬＭ／劇場版ラブパトリーナ製作委員会/(C)2021『茜色に焼かれる』フィルムパートナーズ/(C)NEW ZEALAND TRUST CORPORATION AS TRUSTEE FOR ELAROF CHANNEL FOUR TELEVISION CORPORATION TRADEMARK FATHER LIMITED F COMME FILM CINE-@ ORANGE STUDIO 2020/（C）「しあわせのマスカット」製作委員会/　(C)2020「くれなずめ」製作委員会/（C）2021「未来へのかたち」製作委員会/(C)2020 SHANGHAI LIX ENTERTAINMENT CO.LTD ALLRIGHTS RESRVED/（C）2021　東映ビデオ・東映AG・東映　（C）テレビ朝日・東映AG・東映/(C)BanG Dream! Project (C)Craft Egg Inc. (C)bushiroad All Rights Reserved./（C）2020 Marro WWG LLC. All rights reserved./(C)Carole BETHUEL　(C)DHARAMSALA &amp; DARIUS FILMS/（C）2020 UNIVERSAL STUDIOS/(C)2019 STX Financing, LLC. All Rights Reserved./（C）2021「劇場版シグナル」製作委員会/（C）2021 MAGNET/YAMIKEN/（C）ENSEMBLE SQUARE/(C)GIRLS und PANZER Finale Projekt/(C)2020 映画ヒーリングっど・プリキュア製作委員会/（C）2020映画「奥様は、取り扱い注意」製作委員会/（C）2020Midnight Swan Film Partners</small></p></div>
+
+<footer class="footer is-normal" role="contentinfo">
+    <div class="footer-pagetop">
+        <p><a href="#top" class="js-smooth">ページトップへ</a></p>
+    </div>
+    <div class="footer-link">
+        <ul>
+            <li><a href="http://www.tohocinemas.co.jp/" target="_blank">企業情報</a></li>
+            <li><a href="https://www.tohotheater.jp/info/sitemap.html" class="changeImgDomain">サイトマップ</a></li>
+            <li><a href="https://www.tohotheater.jp/info/privacy.html" class="changeImgDomain">個人情報の取扱いについて</a></li>
+            <li><a href="https://www.tohotheater.jp/info/business_deal.html" class="changeImgDomain">特定商取引法に基づく表記</a></li>
+            <li><a href="https://www.tohotheater.jp/info/help.html" class="changeImgDomain">ご利用に際して</a></li>
+            <li><a href="https://www.tohotheater.jp/vit/legal_notice.html" class="changeImgDomain">vit®利用規約</a></li>
+        </ul>
+        <ul class="sns-area">
+            <li class="global-youtube sns-area-item"><a href="https://www.youtube.com/user/TOHOCINEMASmagazine" target="_blank"><i class="glyphicon glyphicon-icon_youtube" aria-hidden="true"></i><span class="text">youtube</span></a></li>
+            <li class="global-line sns-area-item"><a href="https://line.me/R/ti/p/%40tohocinemas" target="_blank"><i class="glyphicon glyphicon-icon_line" aria-hidden="true"></i><span class="text">line</span></a></li>
+            <li class="global-twitter sns-area-item"><a href="https://twitter.com/tohocinemas_m" target="_blank"><i class="glyphicon glyphicon-icon_twitter" aria-hidden="true"></i><span class="text">Twitter</span></a></li>
+            <li class="global-facebook sns-area-item"><a href="https://www.facebook.com/tohocinemasmagagine/" target="_blank"><i class="glyphicon glyphicon-icon_facebook" aria-hidden="true"></i><span class="text">facebook</span></a></li>
+            <li class="global-instagram sns-area-item"><a href="https://www.instagram.com/tohocinemas_official/" target="_blank"><i class="glyphicon glyphicon-icon_instagram" aria-hidden="true"></i><span class="text">instagram</span></a></li>
+        </ul>
+    </div>
+    <div class="footer-copyright">
+        <p><small>TM &amp; © TOHO Cinemas Ltd. All Rights Reserved.</small></p>
+    </div>
+</footer>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', 
+'739386006168943');
+fbq('track', 
+"PageView");</script>
+<noscript><img 
+height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=739386006168943&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K35TJR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K35TJR');</script>
+<!-- End Google Tag Manager -->
+<script src="/responsive/js/common.js?20200731"></script>
+<script src="/responsive/js/jquery.cookie.js"></script>
+<script src="/responsive/js/Promise.min.js"></script>
+<script src="/responsive/js/utils/commonUtils.js?20190730"></script>
+<script src="/responsive/js/optin.js"></script>
+<div class="optIn is-optin-close">
+	<div class="optIn_inner">
+		<p class="textArea">このサイトでは、サイトの一部サービスやサイト・広告改善の為、Cookieを使用致します。<br>このバナーを閉じるか、閲覧を継続されることでCookieの使用に同意するものと致します。<br>Cookieの使用に関する詳細は<a href="https://www.tohotheater.jp/info/help.html" class="changeImgDomain">「ご利用に際して」</a>をご覧ください。こちらからオプトアウトも可能です。</p>
+		<p class="btnArea"><i class="optin-close"></i></p>
+	</div>
+</div>
+
+<script src="/responsive/js/slider/sliderpro/js/jquery.sliderPro.min.js"></script>
+<script src="/responsive/js/jquery.heightLine.js"></script>
+<script src="/responsive/js/jquery-scrollInTurn.js"></script>
+<script src="/responsive/js/toHtml/showingList.js?20191218"></script>
+
+<script>
+$(function(){
+    $('.js-heightline-01').heightLine();
+    $(window).on('resize', function () {
+        isMobile = window.innerWidth < 768;
+        var $bannerSlider = $('#js-banner-slider-01');
+
+        if(!isMobile) {
+            if(typeof $bannerSlider.data('sliderPro') != 'undefined') {
+                $('#js-banner-slider-01').data('sliderPro').settings.autoHeight = false;
+                $bannerSlider.sliderPro('destroy');
+            }
+        }
+        else {
+            if(typeof $bannerSlider.data('sliderPro') == 'undefined') {
+                var isLoop = ($bannerSlider.find('.sp-slide').length > 2) ? true : false;
+                $bannerSlider.sliderPro({
+                    width: '100%',
+                    arrows: false,
+                    buttons: true,
+                    autoHeight: true,
+                    responsive: true,
+                    autoplay: false,
+                    loop: isLoop
+                });
+            }
+        }
+    })
+    .trigger('resize');
+    $('.js-scrollInTurn').scrollInTurn({
+        fadeInSpeed: 750,
+        delayHeight: 0
+    });
+});
+</script>
+<script async="" type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&amp;ns=1&amp;cb=614925673"></script>
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","362030357747701");fbq("track","PageView");</script>
+<noscript>
+ <img height="1" width="1" src="https://www.facebook.com/tr?id=362030357747701&amp;ev=PageView
+&amp;noscript=1">
+</noscript>
+<div style="display: none; visibility: hidden;"><script type="text/javascript">!function(c,d){if(void 0===d[c]){d[c]=function(){d[c].clients.push(this);this._init=[Array.prototype.slice.call(arguments)]};d[c].clients=[];for(var e=function(a){return function(){return this["_"+a]=this["_"+a]||[],this["_"+a].push(Array.prototype.slice.call(arguments)),this}},f="blockEvents unblockEvents setSignedMode setAnonymousMode resetUUID addRecord fetchGlobalID set trackEvent trackPageview trackClicks ready".split(" "),a=0;a<f.length;a++){var b=f[a];d[c].prototype[b]=e(b)}e=document.createElement("script");
+e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.treasuredata.com/sdk/2.1/td.min.js";f=document.getElementsByTagName("script")[0];f.parentNode.insertBefore(e,f)}}("Treasure",this);
+!function(c,d,e,f){c=function(a){this.version="0.1.7";this.customParam=a.customParam||{};this.idSyncList=a.idSyncList||[];this.table=a.table;this.trackCrossDomain=a.trackCrossDomain||!1;this.id="tdw_"+Math.random().toString(36).substring(7);this.sent=!1;this.tokenIntimateMerger=a.tokenIntimateMerger||void 0;this.dmpCb={list:{},funcs:[],cnt:0};this.ac=this._getAccountInfo(a.initParams);var b=new d.Treasure(a.initParams);return b.set("$global",this.customParam),this.trackCrossDomain&&b.set("$global",
+"td_global_id","td_global_id"),this.success=this._prepareSuccessCallback(a.successCallback||[]),this.fail=a.errorCallback||void 0,this.td=b,d[f][this.id]=this};c.prototype._getAccountInfo=function(a){var b=a.writeKey.split("/")[0];return this._getPlatformInfo(a.host.split(".")[0])+"-"+b};c.prototype._getPlatformInfo=function(a){return"in"===a?"aws-us":"tokyo"===a?"aws-tokyo":"idcf"===a?"idcf":"unknown-"+a};c.prototype._setDmpCallbacks=function(){var a=this;if(void 0!==a.tokenIntimateMerger){var b=
+{parent:a,onReceive:function(a){var b={};void 0!==a.imid&&(b.imid=a.imid);void 0!==a.segment_eids&&(b.im_segmentids=a.segment_eids);this.parent._onDmpCallback(b)}},c="//sync.im-apps.net/imid/segment?token\x3d"+a.tokenIntimateMerger+"\x26callback\x3d"+encodeURIComponent(f+"."+a.id+".dmpCb.list.im.onReceive");a.dmpCb.list.im=b;a.dmpCb.funcs.push(a._buildCreateScriptFunc(c))}};c.prototype._onDmpCallback=function(a){this.td.set("$global",a);this.dmpCb.cnt++;Object.keys(this.dmpCb.list).length===this.dmpCb.cnt&&
+this.sendRequest()};c.prototype._prepareSuccessCallback=function(a){var b=[];if(("function"==typeof a&&b.push(a),0!==this.idSyncList.length)&&0<=this.idSyncList.indexOf("google")){var c=this;b.push(function(){var a;var b="\x26td_client_id\x3d"+c.td.client.track.uuid+"\x26td_host\x3d"+document.location.host+"\x26account\x3d"+c.ac;b="cm.g.doubleclick.net/pixel?google_nid\x3dtreasuredata_dmp\x26google_cm\x26td_write_key\x3d8151/fcd628065149d648b80f11448b4083528c0d8a91\x26td_global_id\x3dtd_global_id"+
+b;(a=document.createElement("img")).src=("https:"===document.location.protocol?"https://":"http://")+b;a.width=1;a.height=1;a.style.display="none";document.body.appendChild(a)})}return function(){b.forEach(function(a){a()})}};c.prototype._buildCreateScriptFunc=function(a){return function(){var b=a,c=e.createElement("script");c.type="text/javascript";c.async=!0;c.src=b;b=e.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)}};c.prototype.sendRequest=function(){this.sent||(this.td.trackEvent(this.table,
+{},this.success,this.fail),this.sent=!0)};c.prototype.boot=function(){this._setDmpCallbacks();0!==this.dmpCb.funcs.length?this.dmpCb.funcs.forEach(function(a){a()}):this.sendRequest()};d[f]=c}(0,window,document,"TDWrapper60");var _opts={initParams:{host:"tokyo.in.treasuredata.com",writeKey:"60/a84ae445a99f8b7d507e1154d54ac1137dabc9ea",database:"gem_1000563_toho",startInSignedMode:!0},table:"pageviews",tokenIntimateMerger:"SslLGIlz1vUxiIkb8Mzm7Q",trackCrossDomain:!0,idSyncList:["google"]},tdw60=new TDWrapper60(_opts);
+tdw60.boot();</script></div><img src="https://cm.g.doubleclick.net/pixel?google_nid=treasuredata_dmp&amp;google_cm&amp;td_write_key=8151/fcd628065149d648b80f11448b4083528c0d8a91&amp;td_global_id=td_global_id&amp;td_client_id=b71a67d3-ac4d-49f2-9d2b-b55c56118961&amp;td_host=hlo.tohotheater.jp&amp;account=aws-tokyo-60" width="1" height="1" style="display: none;"><script src="https://analytics.twitter.com/i/adsct?type=javascript&amp;version=1.1.0&amp;p_id=Twitter&amp;p_user_id=0&amp;txn_id=nxaj6&amp;events=%5B%5B%22pageview%22%2Cnull%5D%5D&amp;tw_sale_amount=0&amp;tw_order_quantity=0&amp;tw_iframe_status=0&amp;tpx_cb=twttr.conversion.loadPixels&amp;tw_document_href=https%3A%2F%2Fhlo.tohotheater.jp%2Fnet%2Fmovie%2FTNPI3090J01.do" type="text/javascript"></script><script src="https://analytics.twitter.com/i/adsct?type=javascript&amp;version=1.1.0&amp;p_id=Twitter&amp;p_user_id=0&amp;txn_id=o0wdx&amp;events=%5B%5B%22pageview%22%2Cnull%5D%5D&amp;tw_sale_amount=0&amp;tw_order_quantity=0&amp;tw_iframe_status=0&amp;tpx_cb=twttr.conversion.loadPixels&amp;tw_document_href=https%3A%2F%2Fhlo.tohotheater.jp%2Fnet%2Fmovie%2FTNPI3090J01.do" type="text/javascript"></script><script src="https://analytics.twitter.com/i/adsct?type=javascript&amp;version=1.1.0&amp;p_id=Twitter&amp;p_user_id=0&amp;txn_id=o24y2&amp;events=%5B%5B%22pageview%22%2Cnull%5D%5D&amp;tw_sale_amount=0&amp;tw_order_quantity=0&amp;tw_iframe_status=0&amp;tpx_cb=twttr.conversion.loadPixels&amp;tw_document_href=https%3A%2F%2Fhlo.tohotheater.jp%2Fnet%2Fmovie%2FTNPI3090J01.do" type="text/javascript"></script><iframe id="google_osd_static_frame_19703330051" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body></html>
